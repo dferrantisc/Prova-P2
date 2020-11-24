@@ -2,8 +2,17 @@ package com.example.prova_p2.Entidade;
 
 public class Livro {
 
+    private String uuid;
     private String nome;
     private Integer paginas;
+
+    public String getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
 
     public String getNome() {
         return nome;
