@@ -29,5 +29,12 @@ public class Livro {
     public void setPaginas(Integer paginas) {
         this.paginas = paginas;
     }
+
+    @Override
+    public String toString() {
+        return
+                "Nome:'" + nome + '\'' +
+                "Paginas:" + paginas;
+    }
 }
 
